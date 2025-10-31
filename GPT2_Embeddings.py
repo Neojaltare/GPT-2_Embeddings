@@ -4,8 +4,6 @@ import numpy as np
 from mpl_toolkits.mplot3d import Axes3D
 
 
-embed_data = np.load('embed_data.npz', allow_pickle=True)
-
 st.set_page_config(page_title="Inside GPT-2 - Embeddings", layout="centered")  # Optional: sets browser tab title, layout
 
 # st.title("Exploring Inner Representations in GPT-2")
