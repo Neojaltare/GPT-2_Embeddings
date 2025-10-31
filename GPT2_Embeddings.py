@@ -147,14 +147,9 @@ Stay tuned :)
 
 
 st.markdown("---")
-st.markdown(
-    """
-    <div style="text-align: center;">
-        <img src="Photo.png" width="100"/>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
+st.markdown("<div style='text-align: center;'>", unsafe_allow_html=True)
+st.image("Photo.png", width=100)
+st.markdown("</div>", unsafe_allow_html=True)
 st.markdown(
     "<p style='text-align: center;'>"
     "Created by <a href='https://github.com/Neojaltare' target='_blank'>Ketan Jaltare</a>"
