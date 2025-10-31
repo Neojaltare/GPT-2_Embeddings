@@ -154,7 +154,8 @@ st.markdown(
     </div>
     """,
     unsafe_allow_html=True
-)st.markdown(
+)
+st.markdown(
     "<p style='text-align: center;'>"
     "Created by <a href='https://github.com/Neojaltare' target='_blank'>Ketan Jaltare</a>"
     "</p>", unsafe_allow_html=True)
