@@ -6,6 +6,21 @@ from mpl_toolkits.mplot3d import Axes3D
 
 st.set_page_config(page_title="Inside GPT-2 - Embeddings", layout="centered")  # Optional: sets browser tab title, layout
 
+
+st.markdown(
+    """
+    <div style="display: flex; align-items: center;">
+        <img src="Photo.png" width="100" style="margin-right: 15px;" />
+        <div>
+            <h3 style="margin-bottom: 0;">Ketan Jaltare</h3>
+            <a href="https://github.com/Neojaltare" target="_blank">github.com/Neojaltare</a>
+        </div>
+    </div>
+    <hr style="margin-top: 10px; margin-bottom: 20px;">
+    """,
+    unsafe_allow_html=True
+)
+
 # st.title("Exploring Inner Representations in GPT-2")
 st.markdown("<h1 style='text-align: center;'>Exploring Inner Representations in GPT-2</h3>", unsafe_allow_html=True)
 
@@ -146,11 +161,4 @@ Stay tuned :)
 
 
 
-st.markdown("---")
-st.markdown("<div style='text-align: center;'>", unsafe_allow_html=True)
-st.image("Photo.png", width=100)
-st.markdown("</div>", unsafe_allow_html=True)
-st.markdown(
-    "<p style='text-align: center;'>"
-    "Created by <a href='https://github.com/Neojaltare' target='_blank'>Ketan Jaltare</a>"
-    "</p>", unsafe_allow_html=True)
+
