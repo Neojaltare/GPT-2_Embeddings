@@ -53,11 +53,11 @@ For visual clarity, I also **normalized** the vectors to unit norm, so they all 
 
 st.markdown("<h3 style='text-align: center;'>Example 1</h3>", unsafe_allow_html=True)
 
-st.write("Now lets track the movement of the word 'first' through the following sentense:")
+st.write("Now lets track the movement of the word 'first' through the following sentence:")
 
 st.markdown("""
 <p style='text-align: center; font-size: 20px; color: grey;'>
-<b><i>"This is the very first example sentense."</i></b>
+<b><i>"This is the very first example sentence."</i></b>
 </p>
 """, unsafe_allow_html=True)
 
@@ -107,7 +107,7 @@ This means that both the direction and the magnitude (norm) of the final embeddi
 
 st.markdown("<h3 style='text-align: center;'>Example 2</h3>", unsafe_allow_html=True)
 
-st.write("Now lets take a look at how the word 'fleeting' travels through the embedding space in this sentense:")
+st.write("Now lets take a look at how the word 'fleeting' travels through the embedding space in this sentence:")
 
 st.markdown("""
 <p style='text-align: center; font-size: 20px; color: grey;'>
@@ -120,7 +120,7 @@ st.image("embedding_with_similarity_and_norms2.gif")
 st.markdown(
 """ 
 <div style="text-align: justify;">
-The evolution of the vector norms, dot products and cosine similarities seem to be almost identical to that of the target word in the previous sentense.
+The evolution of the vector norms, dot products and cosine similarities seem to be almost identical to that of the target word in the previous sentence.
 If anything, the cosine similarity of the embedding vector with that of the next word, marginally decreases. This is a small sample size, but perhaps an indication that this is a repeating pattern?
 
 
@@ -130,7 +130,7 @@ If anything, the cosine similarity of the embedding vector with that of the next
  actual word embedding before it enters the transformers. This addition already nudges the embedding off its starting position, but is an important step in telling the model about the position of the embedding in the full sequence.
 
 ### Are all tokens roughly pointed in the same direction? 
---- From visually inspecting the embeddings of each of the above sentenses, it seemed to me like the vectors all may be pointing roughly in the same direction. But this is a rediculously small sample 
+--- From visually inspecting the embeddings of each of the above sentences, it seemed to me like the vectors all may be pointing roughly in the same direction. But this is a rediculously small sample 
 based on which to make that inference. One way of quantifying this for the full embeddings matrix would be to compute a matrix of pairwise dot products between all the embeddings vectors. 
 
 ### Other questions this raises?
